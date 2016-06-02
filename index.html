@@ -48,7 +48,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     }
 
   </script>
-
+  <!--   begin firebase -->
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyB-Pe_OLqg45Mvzo3xMCyqm3P5bMhc7ulM",
+      authDomain: "pizza-1330.firebaseapp.com",
+      databaseURL: "https://pizza-1330.firebaseio.com",
+      storageBucket: "pizza-1330.appspot.com",
+    };
+    firebase.initializeApp(config);
+  </script>
+  <!-- end firebase -->
   <link rel="import" href="/src/my-app.html">
 
   <style>
